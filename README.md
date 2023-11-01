@@ -66,16 +66,3 @@ gcc omp20.c -fopenmp -fcf-protection=none -foffload=amdgcn-amdhsa
 12. omp11.cpp =  memory allocation in device using- 
     data map(from: deviceArray[0:N]) and 
     deviceArray = (int *)omp_target_alloc(N * sizeof(int), omp_get_initial_device());
-
-
-
-
-
-
-22. omp22.cpp = dot product on gpu
-23. omp23.cpp = code not working , dont know why
-24. omp24.cpp = custom number of teams and threads creation  
-    omp24.c   = custom number of teams and threads creation
-25. omp25.cpp = data mapped to device where and how its used i have no clue
-26. omp26.cpp = code for finding out the use case for data mapping
-27. omp27.cpp = 
